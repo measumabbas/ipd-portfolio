@@ -1,0 +1,91 @@
+
+body{
+    overflow-x: hidden;
+}
+
+#carouselExampleControls{
+    height: 70vh;
+}
+
+.carousel-inner{
+    
+    height: 80vh;
+}
+
+.about,.portfolio{
+    margin-top: 100px;
+}
+
+.about h1{
+    margin-bottom: 100px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :50px;
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 90px;
+}
+.content{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 3px solid rgb(91, 119, 196);
+}
+.content p{
+    width: 90%;
+}
+.read-more{
+   
+    background-color: rgb(237, 238, 238);
+    border-top: 1px solid rgb(192, 191, 191);
+    padding: 15px;
+    /* transform: translateY(15px); */
+}
+a{
+    text-decoration: none;
+}
+
+.blog{
+    margin-bottom: 100px;
+}
+.card.team-div{
+    position: relative;
+    
+}
+.card.team-div:hover{
+     box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+     cursor: pointer;
+
+ }
+.card-body.team{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(85, 85, 97);
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+
+} 
+
+.team1{
+    margin-bottom: 100px;
+}
+/* .team-card{
+    z-index: 1000; border: 1px solid red; transform: translateX(-240px);
+    /* width: 200%; */
+    /* color: #000;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(85, 85, 97);
+    top: 60px; */
+    
+/* } */ 
+
+
